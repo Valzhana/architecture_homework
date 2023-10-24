@@ -1,10 +1,18 @@
 package seminar1.store3d.inmemorymodel;
 
+import seminar1.store3d.modelelements.Camera;
+import seminar1.store3d.modelelements.Flash;
+import seminar1.store3d.modelelements.PoligonalModel;
+import seminar1.store3d.modelelements.Scene;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class ModelStore implements ModelChanger {
-    //TODO: Доработать в рамках домашней работы
+    ArrayList<PoligonalModel> Models = new ArrayList<>();
+    ArrayList<Scene> Scenes = new ArrayList<>();
+    ArrayList<Flash> Flashes = new ArrayList<>();
+    ArrayList<Camera> Cameras = new ArrayList<>();
 
     private Collection<ModelChangedObserver> changeObservers = new ArrayList<>();
 
