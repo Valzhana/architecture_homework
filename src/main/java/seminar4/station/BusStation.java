@@ -1,9 +1,10 @@
 package seminar4.station;
 
+
 /**
- * Автобусная станция (отдельный комплекс)
+ * Автобусная станция
  */
-public class BusStation {
+public class BusStation implements TransportStation {
 
     private final TicketProvider ticketProvider;
 

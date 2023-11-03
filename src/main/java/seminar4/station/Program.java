@@ -16,15 +16,28 @@ public class Program {
  * 7.  Выявить компоненты.
  * 8.  Разработать Диаграмму компонент использую нотацию UML 2.0. Общая без деталей.
  */
-    public static void main(String[] args) {
-        Core core = new Core();
-        MobileApp mobileApp = new MobileApp(core.getTicketProvider(), core.getCustomerProvider());
-        BusStation busStation = new BusStation(core.getTicketProvider());
+public static void main(String[] args) {
 
-        if (mobileApp.buyTicket("1000000000000099")){
-            mobileApp.searchTicket(new Date());
+    Customer customer = new Customer("Test User");
+    Database database = new Database();
+    TicketProvider ticketProvider = new MoscowTicketProvider(database, new BankPaymentProvider());
+    CustomerProvider customerProvider = new MobileCustomerProvider(database);
+    customerProvider.saveCustomer(customer);
+
+    BusStation busStation = new BusStation(ticketProvider);
+
+    MobileApp mobileApp = new MobileApp(ticketProvider, new MobileCustomerProvider(database));
+
+
+    try {
+        mobileApp.login(customer.getLogin());
+
+        if(mobileApp.getTickets().isEmpty()) {
+            mobileApp.buyTicket("1111");
         }
-
+        busStation.checkTicket(mobileApp.getTickets().stream().toList().get(0).getQrcode());
+    } catch (Exception e) {
+        System.out.println(e.getMessage());
     }
-
+}
 }
