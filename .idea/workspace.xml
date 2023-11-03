@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/CarWash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/FlyingCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/FuelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/GearboxType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Harvester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Refueling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/RefuelingStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/RefuelingStationV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/SportCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Wiping.java" afterDir="false" />
+    <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/BusStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/CustomerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/MobileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/PaymentProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/TicketProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +53,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Учебка/Архитектура ПО/lesson3/lesson3"
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/architecture_homework/src/main/java/seminar4/station"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\architecture_homework\src\main\java\seminar4\station" />
       <recent name="C:\Users\User\IdeaProjects\architecture_homework\src\main\java\seminar2\buildermethod" />
       <recent name="C:\Users\User\IdeaProjects\architecture_homework\src\main\java\seminar1\store3d\inmemorymodel" />
     </key>
@@ -129,12 +127,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698469966516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added homework_seminar3">
+      <created>1699025104981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699025104981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added homework_seminar1" />
     <MESSAGE value="added homework_seminar2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar2" />
+    <MESSAGE value="added homework_seminar3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar3" />
   </component>
 </project>
