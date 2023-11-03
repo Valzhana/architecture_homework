@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/DocBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/DocCreationEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/PDFDocBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/PDFDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/XMLDocBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/buildermethod/XMLDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/CarWash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/FlyingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/GearboxType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Harvester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Refueling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/RefuelingStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/RefuelingStationV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Wiping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +56,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/architecture_homework/src/main/java/seminar2/buildermethod"
+    "last_opened_file_path": "C:/Users/User/Documents/Учебка/Архитектура ПО/lesson3/lesson3"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698467826118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added homework_seminar2">
+      <created>1698469966516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698469966516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
