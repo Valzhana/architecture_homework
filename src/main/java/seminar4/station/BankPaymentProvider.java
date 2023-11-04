@@ -1,5 +1,8 @@
 package seminar4.station;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class BankPaymentProvider implements PaymentProvider {
 
     private final Map<String, Double> accounts = new HashMap<>();
