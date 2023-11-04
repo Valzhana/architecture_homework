@@ -13,6 +13,11 @@ public class FlyingCar extends Car {
     }
 
     @Override
+    public void wash() {
+
+    }
+
+    @Override
     public void movement() {
         fly();
     }
