@@ -59,7 +59,12 @@ public class Program {
      */
     public static void main(String[] args) {
 
-        CarWash carWash = new CarWash();
+        CarWash carWash = new CarWash() {
+            @Override
+            public void wash() {
+
+            }
+        };
 
         RefuelingStation refuelingStation = new RefuelingStation();
         RefuelingStationV2 refuelingStation2 = new RefuelingStationV2();
