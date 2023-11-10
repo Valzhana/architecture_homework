@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/CoreInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/ConcreteNoteEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NoteEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NotesDatabaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NotesPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/domain/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/DatabaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/ModelBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/ModelConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/entityconfiguration/NoteConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/NotesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/NotesConsolePresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/Presenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminar3/car/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar3/car/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminar4/station/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar4/station/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/application/ConcreteNoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/ConcreteNoteEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NoteEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/NotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/NotesConsolePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/NotesConsolePresenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +70,7 @@
       <recent name="seminar6.notes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.seminar4.station.Program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar2.buildermethod.Client" />
       <module name="architecture_homework" />
@@ -114,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar3.car.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar3.car.Program" />
+      <module name="architecture_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar3.car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar4.station.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar4.station.Program" />
       <module name="architecture_homework" />
@@ -127,10 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar5.model3d.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar5.model3d.Program" />
+      <module name="architecture_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar5.model3d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.seminar4.station.Program" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.seminar5.model3d.Program" />
+        <item itemvalue="Application.seminar3.car.Program" />
+        <item itemvalue="Application.seminar4.station.Program" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -228,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699120759510</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added homework_seminar5">
+      <created>1699308212467</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699308212467</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

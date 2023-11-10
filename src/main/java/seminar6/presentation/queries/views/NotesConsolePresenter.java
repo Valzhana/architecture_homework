@@ -12,4 +12,5 @@ public class NotesConsolePresenter implements NotesPresenter {
             System.out.println(note);
         }
     }
+
 }
