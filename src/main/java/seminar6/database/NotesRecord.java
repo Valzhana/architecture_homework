@@ -7,6 +7,7 @@ public class NotesRecord {
     private String title;
     private String details;
 
+
     public int getId() {
         return id;
     }
@@ -32,6 +33,5 @@ public class NotesRecord {
         this.details = details;
         id = ++counter;
     }
-
 
 }

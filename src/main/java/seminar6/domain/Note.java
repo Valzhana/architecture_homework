@@ -1,5 +1,4 @@
 package seminar6.domain;
-
 public class Note {
 
 

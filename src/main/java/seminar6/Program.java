@@ -24,7 +24,6 @@ public class Program {
         NotesController notesController = new NotesController(noteEditor);
 
         notesController.routeGetAll();
-        notesController.routeRemoveNote();
         notesController.routeAddNote();
     }
 

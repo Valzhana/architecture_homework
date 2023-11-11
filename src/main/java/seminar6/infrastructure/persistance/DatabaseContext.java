@@ -17,12 +17,11 @@ public class DatabaseContext extends DbContext implements NotesDatabaseContext {
             notes.add(new Note(
                     record.getId(),
                     record.getTitle(),
-                    record.getDetails()
-            ));
+                    record.getDetails()));
+
         }
         return notes;
     }
-
 
     public DatabaseContext(Database database) {
         super(database);

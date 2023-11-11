@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar5">
+    <list default="true" id="b09dd8b4-4696-4cfd-8d50-9a2a2fce43c3" name="Changes" comment="added homework_seminar6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/commands/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/application/ConcreteNoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/ConcreteNoteEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NoteEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NotesPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/application/interfaces/NotesPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/database/NotesTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/domain/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/domain/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/DatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/infrastructure/persistance/DatabaseContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/controllers/NotesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/NotesConsolePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar6/presentation/queries/views/NotesConsolePresenter.java" afterDir="false" />
@@ -24,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,6 +71,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\architecture_homework\src\main\java\seminar4\station" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="seminar6.infrastructure.persistance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="seminar6.notes" />
@@ -246,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699308212467</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added homework_seminar6">
+      <created>1699635177561</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699635177561</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,6 +271,7 @@
     <MESSAGE value="added homework_seminar3" />
     <MESSAGE value="added homework_seminar4" />
     <MESSAGE value="added homework_seminar5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar5" />
+    <MESSAGE value="added homework_seminar6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework_seminar6" />
   </component>
 </project>

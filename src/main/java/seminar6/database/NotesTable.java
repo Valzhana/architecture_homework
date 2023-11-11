@@ -9,6 +9,7 @@ public class NotesTable {
     private static Random random = new Random();
 
     private Collection<NotesRecord> records;
+    private Record record;
 
     public Collection<NotesRecord> getRecords() {
         prepareRecords();
@@ -24,4 +25,5 @@ public class NotesTable {
             }
         }
     }
+
 }

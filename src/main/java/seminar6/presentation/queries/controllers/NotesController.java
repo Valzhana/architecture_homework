@@ -1,6 +1,7 @@
 package seminar6.presentation.queries.controllers;
 
 import seminar6.application.interfaces.NoteEditor;
+import seminar6.domain.Note;
 
 public class NotesController extends Controller {
 
@@ -15,12 +16,12 @@ public class NotesController extends Controller {
         noteEditor.printAll();
     }
     public void routeAddNote(){
-        this.noteEditor.add();
+        this.noteEditor.printRecord();
     }
 
-    public void routeRemoveNote(){
-        this.noteEditor.remove();
+    public void routeRemoveNote(Note note){
+        this.noteEditor.remove(note);
     }
-
 
 }
+
